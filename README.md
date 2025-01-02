@@ -1,10 +1,7 @@
-# PFDA-project
+# PFDA-project **Cybercrime Data Analysis**
 
-***
-Project for PFDA  (programming-for-data-analytics).
 Lecture by Andrew Beatty at [ATU](https://www.atu.ie/)
 
-## Cybercrime Data Analysis
 
 ***
 
@@ -26,3 +23,19 @@ Using advanced data analysis and visualization techniques, this project explores
 - **Attack Vector Analysis:** Identify the most common methods used by cybercriminals.
 - **Target Sector Analysis:** Determine which industries are most frequently targeted.
 - **Predictive Analytics:** Use machine learning to forecast trends and identify high-risk scenarios.
+
+## Tools and Libraries
+The following tools and libraries will be used:
+
+### Data Handling
+- **Pandas:** For data manipulation and analysis.
+- **NumPy:** For numerical computations.
+- **Regular Expressions:** To clean and preprocess data.
+
+### Data Visualization
+- **Matplotlib:** For creating static, publication-quality plots.
+- **Seaborn:** For generating detailed statistical visualizations.
+
+### Machine Learning
+- **Scikit-learn:** For data preprocessing and predictive modeling.
+- **TensorFlow:** For building and training machine learning models.
