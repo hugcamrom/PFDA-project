@@ -1,4 +1,4 @@
-# PFDA-project **Cybercrime Data Analysis**
+# PFDA-project **Cybercrime Analysis**
 
 Lecture by Andrew Beatty at [ATU](https://www.atu.ie/)
 
