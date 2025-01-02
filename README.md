@@ -61,9 +61,11 @@ The dataset `cyber_data.csv` is hosted on GitHub. It includes:
 ## Installation
 
 ### Prerequisites
+
 Ensure Python 3.8+ is installed on your machine.
 
 ### Required Libraries
+
 Install the required libraries using the following command:
 
 ```bash
@@ -71,9 +73,27 @@ pip install pandas numpy matplotlib seaborn scikit-learn tensorflow
 ```
 
 ### Clone the Repository
+
 Clone the project repository from GitHub:
 
 ```bash
 git clone https://github.com/your-username/cybercrime-analysis.git
 cd cybercrime-analysis
+```
+
+### Dataset Download
+
+Download the `cyber_data.csv` file and place it in the `data/` directory within the project folder.
+
+## Project Structure
+
+```plaintext
+cybercrime-analysis/
+|┃ └── data/
+|┃     └── cyber_data.csv
+|┃ └── notebooks/
+|┃     └── analysis.ipynb
+|┃ └── scripts/
+|┃     └── preprocess.py
+|┃ └── README.md
 ```
