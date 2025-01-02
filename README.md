@@ -117,3 +117,19 @@ Run the preprocessing script to clean the data:
 ```bash
 python scripts/preprocess.py
 ```
+
+## Analysis Techniques
+
+### Data Cleaning
+
+- Remove duplicate entries.
+- Handle missing values using imputation techniques.
+- Use regular expressions to standardize text data.
+
+### Visualization
+
+- **Matplotlib & Seaborn:** Create time series plots, heatmaps, and geographical charts.
+
+### Machine Learning
+
+- Train a predictive model using TensorFlow to identify high-risk attack periods and locations.
