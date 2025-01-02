@@ -97,3 +97,23 @@ cybercrime-analysis/
 |┃     └── preprocess.py
 |┃ └── README.md
 ```
+
+## Usage
+
+### Data Exploration
+
+Open the Jupyter notebook:
+
+```bash
+jupyter notebook notebooks/analysis.ipynb
+```
+
+Explore the dataset, visualize trends, and generate insights.
+
+### Scripts
+
+Run the preprocessing script to clean the data:
+
+```bash
+python scripts/preprocess.py
+```
