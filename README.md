@@ -24,18 +24,35 @@ Using advanced data analysis and visualization techniques, this project explores
 - **Target Sector Analysis:** Determine which industries are most frequently targeted.
 - **Predictive Analytics:** Use machine learning to forecast trends and identify high-risk scenarios.
 
-## Tools and Libraries
-The following tools and libraries will be used:
+## Libraries
+
+The following libraries will be used:
 
 ### Data Handling
+
 - **Pandas:** For data manipulation and analysis.
 - **NumPy:** For numerical computations.
 - **Regular Expressions:** To clean and preprocess data.
 
 ### Data Visualization
+
 - **Matplotlib:** For creating static, publication-quality plots.
 - **Seaborn:** For generating detailed statistical visualizations.
 
 ### Machine Learning
+
 - **Scikit-learn:** For data preprocessing and predictive modeling.
 - **TensorFlow:** For building and training machine learning models.
+
+## Dataset
+
+The dataset `cyber_data.csv` is hosted on GitHub. It includes:
+- **Attack Categories:** Descriptions of cyber-attack types.
+- **Geographical Data:** Locations of incidents.
+- **Timestamps:** Dates and times of attacks.
+- **Target Sectors:** Industries or organizations affected.
+
+### Accessing the Dataset
+
+- **Repository:** [DrSufi/CyberData](https://github.com/DrSufi/CyberData)
+- **Dataset File:** [cyber_data.csv](https://github.com/DrSufi/CyberData/blob/main/cyber_data.csv)
