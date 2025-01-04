@@ -26,6 +26,8 @@ Using advanced data analysis and visualization techniques, this project explores
 
 ## Libraries
 
+***
+
 The following libraries will be used:
 
 ### Data Handling
@@ -46,6 +48,8 @@ The following libraries will be used:
 
 ## Dataset
 
+***
+
 The dataset `cyber_data.csv` is hosted on GitHub. It includes:
 - **Attack Categories:** Descriptions of cyber-attack types.
 - **Geographical Data:** Locations of incidents.
@@ -59,6 +63,8 @@ The dataset `cyber_data.csv` is hosted on GitHub. It includes:
 
 
 ## Installation
+
+***
 
 ### Prerequisites
 
@@ -87,6 +93,8 @@ Download the `cyber_data.csv` file and place it in the `data/` directory within 
 
 ## Project Structure
 
+***
+
 ```plaintext
 cybercrime-analysis/
 |┃ └── data/
@@ -99,6 +107,8 @@ cybercrime-analysis/
 ```
 
 ## Usage
+
+***
 
 ### Data Exploration
 
@@ -120,6 +130,8 @@ python scripts/preprocess.py
 
 ## Analysis Techniques
 
+***
+
 ### Data Cleaning
 
 - Remove duplicate entries.
@@ -133,3 +145,23 @@ python scripts/preprocess.py
 ### Machine Learning
 
 - Train a predictive model using TensorFlow to identify high-risk attack periods and locations.
+
+## Sample Code
+
+***
+
+### Loading and Exploring Data
+
+
+```python
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv('data/cyber_data.csv')
+
+# Display first few rows
+print(df.head())
+
+# Summary statistics
+print(df.describe())
+```
