@@ -9,9 +9,12 @@ Lecture by Andrew Beatty at [ATU](https://www.atu.ie/)
 
 ***
 
-This project focuses on analyzing global cybercrime trends using the `cyber_data.csv` dataset. The dataset provides historical information on cyber-attacks spanning 14 months (October 2022 to December 2023) across 225 countries. It contains 77,623 rows and 18 fields, categorizing incidents by attack vector, target sector, and geography.
+This project focuses on analyzing global cybercrime trends using the `cyber_data.csv` dataset. The dataset provides historical information 
+on cyber-attacks spanning 14 months (October 2022 to December 2023) across 225 countries. It contains 77,623 rows and 18 fields, 
+categorizing incidents by attack vector, target sector, and geography.
 
-Using advanced data analysis and visualization techniques, this project explores patterns, trends, and insights to understand the global impact of cybercrime. Additionally, machine learning will be leveraged for predictive analytics.
+Using advanced data analysis and visualization techniques, this project explores patterns, trends, and insights to understand the global 
+impact of cybercrime. Additionally, machine learning will be leveraged for predictive analytics.
 
 
 ## Project Objectives
@@ -225,13 +228,15 @@ Additional Resources:
 
 For further guidance on conducting data analysis with Python, consider the following resources:
 
-Data Science for Crime Analysis with Python: This book provides a comprehensive introduction to using Python for crime data analysis, including practical examples and code snippets. 
-ANDREW P. WHEELER
+Data Science for Crime Analysis with Python: This book provides a comprehensive introduction to using Python for crime data analysis, 
+including practical examples and code snippets. 
+[`ANDREW P. WHEELER`](https://andrewpwheeler.com/wp-content/uploads/2024/03/ds_pythoncrimeanalysis_earlyrelease-1.pdf?utm_source=chatgpt.com)
 
-Crime Data Exploration with Python3, Numpy, and Pandas: This blog series offers tutorials on analyzing crime data using Python's data analysis libraries. 
-RICHARD KELLER BLOG
+Crime Data Exploration with Python3, Numpy, and Pandas: This blog series offers tutorials on analyzing crime data using Python's 
+data analysis libraries. RICHARD KELLER BLOG
 
-By leveraging the CyberData dataset and these resources, you can develop a comprehensive analysis that sheds light on various facets of cybercrime, enhancing your understanding and contributing valuable insights to the field.
+By leveraging the CyberData dataset and these resources, it will be possible to develop a comprehensive analysis that sheds light on various facets of cybercrime, 
+enhancing your understanding and contributing valuable insights to the field.
 
 
 Sources
