@@ -230,10 +230,10 @@ For further guidance on conducting data analysis with Python, consider the follo
 
 Data Science for Crime Analysis with Python: This book provides a comprehensive introduction to using Python for crime data analysis, 
 including practical examples and code snippets. 
-`ANDREW P. WHEELER`(https://andrewpwheeler.com/wp-content/uploads/2024/03/ds_pythoncrimeanalysis_earlyrelease-1.pdf?utm_source=chatgpt.com)
+[ANDREW P. WHEELER](https://andrewpwheeler.com/wp-content/uploads/2024/03/ds_pythoncrimeanalysis_earlyrelease-1.pdf?utm_source=chatgpt.com)
 
 Crime Data Exploration with Python3, Numpy, and Pandas: This blog series offers tutorials on analyzing crime data using Python's 
-data analysis libraries. RICHARD KELLER BLOG
+data analysis libraries. [RICHARD KELLER BLOG](https://blog.richardkeller.net/crime-data-exploration-with-python3-numpy-and-pandas-part-1/?utm_source=chatgpt.com)
 
 By leveraging the CyberData dataset and these resources, it will be possible to develop a comprehensive analysis that sheds light on various facets of cybercrime, 
 enhancing your understanding and contributing valuable insights to the field.
