@@ -165,3 +165,15 @@ print(df.head())
 # Summary statistics
 print(df.describe())
 ```
+
+### Plotting Trends
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Temporal analysis
+sns.lineplot(data=df, x='timestamp', y='attack_count', hue='attack_type')
+plt.title('Trends in Cyber Attacks Over Time')
+plt.show()
+```
