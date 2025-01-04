@@ -177,3 +177,12 @@ sns.lineplot(data=df, x='timestamp', y='attack_count', hue='attack_type')
 plt.title('Trends in Cyber Attacks Over Time')
 plt.show()
 ```
+
+### Predictive Modeling
+
+
+```python
+from sklearn.model_selection import train_test_split
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+
