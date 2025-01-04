@@ -202,3 +202,8 @@ model = Sequential([
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 model.fit(X_train, y_train, epochs=10, batch_size=32, validation_split=0.2)
 ```
+
+## Contribution
+
+***
+Contributions are welcome! Feel free to open an issue or submit a pull request.
