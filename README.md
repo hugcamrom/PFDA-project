@@ -212,3 +212,11 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ***
 This project is licensed under the MIT License.
+
+## Acknowledgments
+
+***
+- Dataset: [DrSufi/CyberData](https://github.com/DrSufi/CyberData)
+- Libraries: [Pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/), [TensorFlow](https://tensorflow.org/)
+
+---
