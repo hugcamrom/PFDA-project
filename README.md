@@ -104,6 +104,7 @@ cybercrime-analysis/
 |┃     └── cyber_data.csv
 |┃ └── notebooks/
 |┃     └── analysis.ipynb
+|┃     └── preprocess.ipynb
 |┃ └── scripts/
 |┃     └── preprocess.py
 |┃ └── README.md
@@ -119,6 +120,7 @@ Open the Jupyter notebook:
 
 ```bash
 jupyter notebook notebooks/analysis.ipynb
+jupyter notebook notebooks/preprocess.ipynb
 ```
 
 Explore the dataset, visualize trends, and generate insights.
