@@ -220,3 +220,21 @@ This project is licensed under the MIT License.
 - Libraries: [Pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/), [TensorFlow](https://tensorflow.org/)
 
 ***
+
+Additional Resources:
+
+For further guidance on conducting data analysis with Python, consider the following resources:
+
+Data Science for Crime Analysis with Python: This book provides a comprehensive introduction to using Python for crime data analysis, including practical examples and code snippets. 
+ANDREW P. WHEELER
+
+Crime Data Exploration with Python3, Numpy, and Pandas: This blog series offers tutorials on analyzing crime data using Python's data analysis libraries. 
+RICHARD KELLER BLOG
+
+By leveraging the CyberData dataset and these resources, you can develop a comprehensive analysis that sheds light on various facets of cybercrime, enhancing your understanding and contributing valuable insights to the field.
+
+
+Sources
+
+
+
