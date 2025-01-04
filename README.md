@@ -207,3 +207,8 @@ model.fit(X_train, y_train, epochs=10, batch_size=32, validation_split=0.2)
 
 ***
 Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## Licence
+
+***
+This project is licensed under the MIT License.
