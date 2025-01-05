@@ -12,15 +12,17 @@ def load_data(file_path):
 def clean_data(df):
     """
     Clean and preprocess the dataset.
-    - Handle missing values.
-    - Normalize columns.
-    - Extract features.
     """
-    # Handle missing values
-    df.fillna("Unknown", inplace=True)
-
     # Normalize column names
     df.columns = [col.strip().lower().replace(" ", "_") for col in df.columns]
+
+    # Explicitly cast numeric columns before filling
+    for col in df.select_dtypes(include=[np.number]).columns:
+        df[col] = df[col].astype(float).fillna(0)  # Fill numeric NaNs with 0
+
+    # Fill non-numeric columns
+    for col in df.select_dtypes(exclude=[np.number]).columns:
+        df[col] = df[col].fillna("Unknown")  # Fill non-numeric NaNs with "Unknown"
 
     # Extract year from a date column (example)
     if 'date' in df.columns:
@@ -32,6 +34,7 @@ def clean_data(df):
 
     return df
 
+
 def save_processed_data(df, output_path):
     """
     Save the cleaned dataset to a new CSV file.
@@ -40,7 +43,7 @@ def save_processed_data(df, output_path):
 
 if __name__ == "__main__":
     input_file = "data/cyber_data.csv"
-    output_file = "data/processed_data.csv"
+    output_file = "/repos/PFDA-project/data/processed_data.csv"
 
     # Load, clean, and save the data
     print("Loading data...")
