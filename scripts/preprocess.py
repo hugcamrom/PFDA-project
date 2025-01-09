@@ -1,4 +1,4 @@
-# This script handles data cleaning and preparation.
+# Import necessary libraries
 import pandas as pd
 import numpy as np
 import re
@@ -24,16 +24,23 @@ def clean_data(df):
     for col in df.select_dtypes(exclude=[np.number]).columns:
         df[col] = df[col].fillna("Unknown")  # Fill non-numeric NaNs with "Unknown"
 
-    # Extract year from a date column (example)
-    if 'date' in df.columns:
-        df['year'] = pd.to_datetime(df['date'], errors='coerce').dt.year
+    # Extract year from a date column
+    if 'attackdate' in df.columns:
+        df['year'] = pd.to_datetime(df['attackdate'], errors='coerce').dt.year
+    else:
+        print("Warning: 'attackdate' column is missing. 'year' column will not be created.")
 
-    # Example: Extract IP addresses using regex
+    # Ensure 'ransomware' is properly processed
+    if 'ransomware' in df.columns:
+        df['ransomware'] = df['ransomware'].astype('category').cat.codes
+    else:
+        print("Warning: 'ransomware' column is missing.")
+
+    # Extract IP addresses using regex (optional feature engineering example)
     if 'description' in df.columns:
         df['ip_address'] = df['description'].str.extract(r'(\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b)')
-
+    
     return df
-
 
 def save_processed_data(df, output_path):
     """
@@ -42,15 +49,18 @@ def save_processed_data(df, output_path):
     df.to_csv(output_path, index=False)
 
 if __name__ == "__main__":
-    input_file = "data/cyber_data.csv"
+    # File paths
+    input_file = "/repos/PFDA-project/data/cyber_data.csv"
     output_file = "/repos/PFDA-project/data/processed_data.csv"
 
     # Load, clean, and save the data
     print("Loading data...")
     raw_data = load_data(input_file)
+    
     print("Cleaning data...")
     cleaned_data = clean_data(raw_data)
+    
     print(f"Saving processed data to {output_file}...")
     save_processed_data(cleaned_data, output_file)
+    
     print("Preprocessing complete!")
-
