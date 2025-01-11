@@ -176,9 +176,9 @@ data analysis libraries. [RICHARD KELLER BLOG](https://blog.richardkeller.net/cr
 
 By leveraging the CyberData dataset and these resources, it will be possible to develop a comprehensive analysis that sheds light on various facets of cybercrime, enhancing the understanding and contributing valuable insights to the field.
 
-[scikit-learn](https://scikit-learn.org/1.5/modules/generated/sklearn.model_selection.train_test_split.html)
-[confusion_matrix](https://scikit-learn.org/dev/modules/generated/sklearn.metrics.confusion_matrix.html)
-[Colormaps](https://matplotlib.org/stable/users/explain/colors/colormaps.html)
-[seaborn.heatmap](https://seaborn.pydata.org/generated/seaborn.heatmap.html)
+- [scikit-learn](https://scikit-learn.org/1.5/modules/generated/sklearn.model_selection.train_test_split.html)
+- [confusion_matrix](https://scikit-learn.org/dev/modules/generated/sklearn.metrics.confusion_matrix.html)
+- [Colormaps](https://matplotlib.org/stable/users/explain/colors/colormaps.html)
+- [seaborn.heatmap](https://seaborn.pydata.org/generated/seaborn.heatmap.html)
 
 ***
