@@ -13,7 +13,7 @@ def clean_data(df):
     """
     Clean and preprocess the dataset.
     """
-    # Normalize column names
+    # Normalise column names
     df.columns = [col.strip().lower().replace(" ", "_") for col in df.columns]
 
     # Explicitly cast numeric columns before filling

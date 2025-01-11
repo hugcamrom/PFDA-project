@@ -174,5 +174,4 @@ including practical examples and code snippets.
 Crime Data Exploration with Python3, Numpy, and Pandas: This blog series offers tutorials on analyzing crime data using Python's 
 data analysis libraries. [RICHARD KELLER BLOG](https://blog.richardkeller.net/crime-data-exploration-with-python3-numpy-and-pandas-part-1/?utm_source=chatgpt.com)
 
-By leveraging the CyberData dataset and these resources, it will be possible to develop a comprehensive analysis that sheds light on various facets of cybercrime, 
-enhancing the understanding and contributing valuable insights to the field.
+By leveraging the CyberData dataset and these resources, it will be possible to develop a comprehensive analysis that sheds light on various facets of cybercrime, enhancing the understanding and contributing valuable insights to the field.
