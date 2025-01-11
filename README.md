@@ -8,7 +8,7 @@ Lecture by Andrew Beatty at [ATU](https://www.atu.ie/)
 
 This project explores global cybercrime trends using the `cyber_data.csv` dataset, which contains detailed records of cyber-attacks spanning 14 months (October 2022 to December 2023) across 225 countries. The dataset includes 77,623 rows and 19 fields, capturing information such as attack vectors, target sectors, and geographical locations.
 
-The project provides an in-depth analysis of cybercrime trends, highlights vulnerabilities across various sectors, and uses machine learning techniques to predict high-risk scenarios. Data visualizations, including pie charts, bar plots, and heatmaps, enhance the analysis for actionable insights.
+The project provides an in-depth analysis of cybercrime trends, highlights vulnerabilities across various sectors, and uses machine learning techniques to predict high-risk scenarios. Data visualisations, including pie charts, bar plots, and heatmaps, enhance the analysis for actionable insights.
 
 ## Project Objectives
 
@@ -16,13 +16,11 @@ The project provides an in-depth analysis of cybercrime trends, highlights vulne
    - Examine cyber-attack trends over time.
    - Identify peak periods and annual trends.
 2. **Geographical Analysis**:
-   - Visualize the distribution of cyber-attacks across regions.
+   - Visualise the distribution of cyber-attacks across regions.
    - Highlight top-affected countries.
 3. **Attack Method Analysis**:
-   - Analyze the most common attack vectors used by cybercriminals.
-4. **Sectoral Vulnerability**:
-   - Identify industries most frequently targeted by cyber-attacks.
-5. **Predictive Analytics**:
+   - Analyse the most common attack vectors used by cybercriminals.
+4. **Predictive Analytics**:
    - Leverage machine learning to forecast risks and identify high-risk periods or sectors.
 
 ## Tools and Libraries
@@ -32,8 +30,8 @@ The project provides an in-depth analysis of cybercrime trends, highlights vulne
 - **NumPy**: Numerical computations.
 - **Regular Expressions**: Data cleaning and feature extraction.
 
-### Data Visualization
-- **Matplotlib**: Static and customizable visualizations.
+### Data Visualisation
+- **Matplotlib**: Static and customisable visualisations.
 - **Seaborn**: Statistical and advanced plotting.
 
 ### Machine Learning
@@ -74,6 +72,7 @@ Install the necessary libraries:
 pip install pandas numpy matplotlib seaborn scikit-learn tensorflow
 ```
 
+
 ### Dataset
 
 Download the `cyber_data.csv` dataset and place it in the `data/` directory.
@@ -107,7 +106,7 @@ Open the Jupyter notebooks to explore and visualize the data:
 ### Preprocessing Script (`preprocess.py`)
 
 The preprocessing script handles data cleaning and preparation:
-- Normalizes column names.
+- Normalises column names.
 - Handles missing values by filling numeric fields with 0 and categorical fields with "Unknown."
 - Extracts the year from the `attackdate` column.
 - Encodes categorical fields like `ransomware` for machine learning.
@@ -119,7 +118,7 @@ The preprocessing script handles data cleaning and preparation:
    - Implements machine learning models to predict high-risk scenarios.
 
 2. **`cybercrime-visual-analysis.ipynb`**:
-   - Creates advanced visualizations:
+   - Creates advanced visualisations:
      - Pie charts: Attack methods and geographical distribution.
      - Bar charts: Temporal trends and attack frequencies.
      - Heatmaps: Temporal attack distribution by month and year.
@@ -142,9 +141,6 @@ The preprocessing script handles data cleaning and preparation:
 - **Pie Chart**: Predicted risk levels.
 - **Bar Chart**: Breakdown of predicted risks.
 
-## Contribution
-
-Contributions are welcome! Please open an issue or submit a pull request to suggest changes or report bugs.
 
 ## Sources and References
 
@@ -158,8 +154,6 @@ Contributions are welcome! Please open an issue or submit a pull request to sugg
 ## License
 
 This project is licensed under the MIT License.
-
----
 
 ## Acknowledgments
 
